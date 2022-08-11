@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "feather" !important;
+  src: url("../src/assets/font/feather.eot");
+  src: url("../src/assets/font/feather.eot") format("embedded-opentype"),
+  url("../src/assets/font/feather.woff") format("woff"),
+  url("../src/assets/font/feather.ttf") format("truetype"),
+  url("../src/assets/font/feather.svg") format("svg");
+}
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin: 0 !important;
+}

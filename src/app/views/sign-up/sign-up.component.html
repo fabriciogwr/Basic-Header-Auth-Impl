@@ -1,0 +1,93 @@
+<body class="body header-fixed">
+    <div id="wrapper">
+        <div id="page" class="clearfix">
+            <section class="fl-page-title">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-title-inner flex">
+                                <div class="page-title-heading">
+                                    <h2 class="heading">Criar conta</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tf-section login-page register-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-create-item-content">
+                                <div class="form-create-item">
+                                    <div class="sc-heading">
+                                        <h3>Crie sua conta</h3>
+                                        <p class="desc">A mais nova plataforma do agro negócio!</p>
+                                    </div>
+                                    <form id="create-item-1" [formGroup]="formGroup" (ngSubmit)="signupUser();" accept-charset="utf-8">
+                                        <div class="mb-3-mobile">
+                                            <input formControlName="nome" name="nome" value="" type="text" placeholder="Nome" required="">
+                                        </div>
+                                        <div class="mb-3-mobile">
+                                            <input formControlName="telefone1" name="phone" value="" type="text" placeholder="Telefone" required="">
+                                        </div>
+                                        <input formControlName="email" name="email" value="" type="email" placeholder="Email" required="">
+                                        <div class="input-group mb-3-mobile">
+                                            <input formControlName="senha" name="password" value="" type="password" placeholder="Senha" required="">
+                                            <input name="password" value="" type="password" placeholder="Confirmar Senha" required="">
+                                        </div>
+                                        <button name="submit" type="submit"
+                                            class="sc-button style letter style-2"><span>Criar conta</span> </button>
+                                    </form>
+                                    <div class="other-login">
+                                        <div class="text">OU</div>
+                                        <div class="widget-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-background">
+                                    <img src="../../assets/images/background/img-register.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="new-letter">
+                <div class="container">
+                    <div class="new-letter-inner flex">
+                        <div class="new-letter-content">
+                            <h3 class="heading">Receba nossas notícias!</h3>
+                            <p class="sub-heading">Cadastre-se e faça parte da mais nova plataforma do agro negócio!</p>
+                            <div class="form-subcribe">
+                                <form id="subscribe-form" action="#" method="GET" accept-charset="utf-8"
+                                    class="form-submit">
+                                    <input name="email" value="" class="email" type="email" placeholder="Insira seu Email" required="">
+                                    <button name="submit" type="submit" id="submit"
+                                        class="sc-button style letter style-2"><span>Cadastrar</span> </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="new-letter-img">
+                            <img src="../../assets/images/background/img-newletter.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer" class="clearfix bg-style">
+            </footer>
+            <div class="bottom">
+                <div class="container">
+                    <div class="bottom-inner">
+                        Copyright © RuralDeals. Feito por<a href="#"> NextGrid</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
